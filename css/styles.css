@@ -2,13 +2,26 @@
     font-family: 'Fredoka', sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 
 /*Aggiustamenti per la prima sezione*/
 main{
     text-align: center;
 }
 
+#primaSezione{
+    width: 50%;
+    margin: 50px auto;
+}
+
 h1{
+    margin-bottom: 50px;
     font-size: 50px;
     color: rgb(244, 3, 92);
 }
@@ -17,4 +30,64 @@ p{
     font-size: 20px;
 }
 
+
+
 /*Aggiustamenti per row e colonne*/
+.row{
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col{
+    float: left;
+    width: calc(100% / 3);
+    text-align: start;
+    padding: 0 5%;
+    
+
+    /*debug
+    border: 5px dotted black;
+    background-color: aqua;*/
+}
+
+
+
+/*Aggiustamenti per le carte*/
+h4{
+    margin: 5px auto;
+}
+
+.teamPhotos{
+    width: 80px;
+    float: left;
+    background-color: black;
+    margin-right: 10px;
+}
+
+.teamInfo{
+    
+    color: white;
+    background-color: black;
+    padding: 10px 10px;
+    
+
+}
+
+.mail{
+    color: rgb(27, 105, 207);
+}
+
+
+/*.card{
+    color: white;
+    background-color: black;
+    width: calc(100% / 3 );
+    margin: 5px;
+}*/
