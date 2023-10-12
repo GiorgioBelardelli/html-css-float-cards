@@ -47,9 +47,12 @@ p{
 
 .col{
     float: left;
-    width: calc(100% / 3);
+    width: calc((100% / 3) - 40px );
+    margin: 0 20px;
     text-align: start;
-    padding: 0 5%;
+    padding: 0;
+    box-shadow: 1px 1px 20px 1px rgb(33, 33, 33)
+    
     
 
     /*debug
@@ -79,6 +82,7 @@ h4{
     
 
 }
+
 
 .mail{
     color: rgb(27, 105, 207);
