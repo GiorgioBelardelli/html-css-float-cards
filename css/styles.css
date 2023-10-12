@@ -1,0 +1,20 @@
+:root{
+    font-family: 'Fredoka', sans-serif;
+}
+
+
+/*Aggiustamenti per la prima sezione*/
+main{
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    color: rgb(244, 3, 92);
+}
+
+p{
+    font-size: 20px;
+}
+
+/*Aggiustamenti per row e colonne*/
